@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.main-content{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section{
+    text-align: center;
+    padding: 3rem 1.5rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
+    h1 {
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+        color: #343a40;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        color: #6c757d;
+    }
+
+}
+
+.btn-custom {
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.navbar-brand-custom {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.footer{
+    background-color: #e9ecef;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
